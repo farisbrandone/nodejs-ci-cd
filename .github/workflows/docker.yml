@@ -33,5 +33,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            farisbrandone/${{ github.repository }}/${{ github.sha }}:latest
-            ghcr.io/farisbrandone/${{ github.repository }}/${{ github.sha }}:latest
+            ${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:latest

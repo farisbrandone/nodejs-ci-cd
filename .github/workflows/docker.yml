@@ -33,5 +33,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            farisbrandone/nodejs-ci-cd:latest
-            ghcr.io/farisbrandone/nodejs-ci-cd:latest
+            usr/src/app/nodejs-ci-cd:latest
+            ghcr.io/usr/src/app/nodejs-ci-cd:latest

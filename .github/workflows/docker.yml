@@ -32,6 +32,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: |
-            faris444/nodejs-ci-cd:latest
-            ghcr.io/faris444/nodejs-ci-cd:latest
+          tags: faris444/nodejs-ci-cd:latest
